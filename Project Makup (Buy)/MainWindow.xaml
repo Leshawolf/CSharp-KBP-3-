@@ -1,0 +1,25 @@
+﻿<Window x:Class="Программа_для_косметологического_салона.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Программа_для_косметологического_салона"
+        mc:Ignorable="d"
+        Title="Салон красоты" Height="424" Width="460" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Foreground>
+        <ImageBrush/>
+    </Window.Foreground>
+    <Window.Background>
+        <ImageBrush ImageSource="/Фоны/Фон.jpg"/>
+    </Window.Background>
+    <Grid>
+        <TextBox x:Name="Login" HorizontalAlignment="Left" Margin="57,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="26" Background="#FFA19F92" FontFamily="Arial Rounded MT Bold" FontSize="14" MaxLength="15"/>
+        <Label x:Name="LoginLabel" Content="Логин:" HorizontalAlignment="Left" Margin="57,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.253,0.489" FontSize="16" Foreground="#FF2A5738" FontFamily="Arial Rounded MT Bold"/>
+        <Label x:Name="PasswordLabel" Content="Пароль:" HorizontalAlignment="Left" Margin="57,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.253,0.489" FontSize="16" Foreground="#FF2A5738" FontFamily="Arial Rounded MT Bold"/>
+        <Button x:Name="Log_in" Content="Войти" HorizontalAlignment="Left" Margin="57,216,0,0" VerticalAlignment="Top" Width="120" Background="#FF2A5738" Height="26" Click="Log_in_Click" FontSize="14" Foreground="White" FontFamily="Arial Rounded MT Bold"/>
+        <Label x:Name="Label" Content="Авторизация" HorizontalAlignment="Left" Margin="57,19,0,0" VerticalAlignment="Top" Foreground="#FF2A5738" FontSize="24" FontFamily="Arial Rounded MT Bold"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="57,165,0,0" VerticalAlignment="Top" Width="180" Height="26" Background="#FFA19F92" FontFamily="Arial Rounded MT Bold" FontSize="14" MaxLength="15"/>
+        <Button x:Name="NoAccount" Content="Нет аккаунта" HorizontalAlignment="Left" Margin="59,286,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF385A43" FontSize="18" FontFamily="Arial Rounded MT Bold" BorderBrush="{x:Null}" Click="NoAccount_Click"/>
+
+    </Grid>
+</Window>

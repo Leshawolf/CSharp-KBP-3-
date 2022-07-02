@@ -1,0 +1,26 @@
+﻿<Window x:Class="MVP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVP"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Visibility="Visible">
+        <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="250">
+            <StackPanel>
+                <TextBlock Text="Login form" TextAlignment="Center"/>
+                <DockPanel LastChildFill="True">
+                    <TextBlock Text="Login:"/>
+                    <TextBox Name="LoginTextBox"/>
+                </DockPanel>
+                <DockPanel LastChildFill="True">
+                    <TextBlock Text="Password:"/>
+                    <PasswordBox Name="PassBox"/>
+                </DockPanel>
+                <Button Content="Log in" Name="LoginButton" Click="LoginButton_Click" IsDefault="True"/>
+                <TextBlock Name="MessageBlock"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

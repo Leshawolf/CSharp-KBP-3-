@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Labs_XAML.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Offset="0" Color="DarkBlue" />
+            <GradientStop Offset="0.2" Color="LightBlue" />
+            <GradientStop Offset="0.8" Color="LightBlue" />
+            <GradientStop Offset="1.0" Color="DarkBlue" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <StackLayout>
+        <Button
+            BackgroundColor="#f0f0f0"
+            BorderColor="#303030"
+            BorderWidth="2"
+            Clicked="Button_Clicked"
+            CornerRadius="20"
+            FontSize="17"
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            Text="Обычная кнопка"
+            TextColor="White"
+            VerticalOptions="Center"
+            WidthRequest="200">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="1,0">
+                    <GradientStop Offset="0.1" Color="LightBlue" />
+                    <GradientStop Offset="1.0" Color="DarkBlue" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>

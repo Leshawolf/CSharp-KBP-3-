@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Задание_2_Лаба_2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Лаба 2-3 КПиЯП\Задание 1 Лаба 3\Задание 1 Лаба 3.csproj" />
+  </ItemGroup>
+
+</Project>

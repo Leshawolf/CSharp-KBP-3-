@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<account name="la-la-la">
+  <BankAccount user="">
+    <ownerFio>Антонович Антон Степанович</ownerFio>
+    <numberAccount>23213</numberAccount>
+    <sumAccount>123</sumAccount>
+    <openDataAccount>03.12.2001 0:00:00</openDataAccount>
+    <accrualPercentage>35</accrualPercentage>
+  </BankAccount>
+  <BankAccount user="">
+    <ownerFio>Степан Филат степанович</ownerFio>
+    <numberAccount>232</numberAccount>
+    <sumAccount>1254</sumAccount>
+    <openDataAccount>20.12.2000 0:00:00</openDataAccount>
+    <accrualPercentage>90</accrualPercentage>
+  </BankAccount>
+  <BankAccount user="">
+    <ownerFio>Яна Срада</ownerFio>
+    <numberAccount>2233223</numberAccount>
+    <sumAccount>999</sumAccount>
+    <openDataAccount>01.01.2001 0:00:00</openDataAccount>
+    <accrualPercentage>10</accrualPercentage>
+  </BankAccount>
+  <BankAccount user="">
+    <ownerFio>Аярка</ownerFio>
+    <numberAccount>23</numberAccount>
+    <sumAccount>222</sumAccount>
+    <openDataAccount>01.10.1999 0:00:00</openDataAccount>
+    <accrualPercentage>99</accrualPercentage>
+  </BankAccount>
+</account>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Labs_XAML.MainPage3"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+    xmlns:tt="clr-namespace:TouchTracking.Forms;assembly=TouchTracking.Forms"
+    x:Name="main">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Gray">
+                <Grid>
+                    <Picker
+                        x:Name="menu"
+                        Title="Меню"
+                        BackgroundColor="Gray"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        HeightRequest="50"
+                        HorizontalOptions="Start"
+                        SelectedIndexChanged="menu_SelectedIndexChanged"
+                        VerticalOptions="Center"
+                        WidthRequest="150">
+                        <Picker.Items>
+                            <x:String>Жёлтый фон</x:String>
+                            <x:String>Чёрная фон</x:String>
+                            <x:String>О разработчике</x:String>
+                            <x:String>Выйти с программы</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker
+                        x:Name="panel"
+                        Title="Панель Инструментов"
+                        BackgroundColor="Gray"
+                        FontAttributes="Bold"
+                        FontSize="12"
+                        HeightRequest="50"
+                        HorizontalOptions="End"
+                        SelectedIndexChanged="panel_SelectedIndexChanged"
+                        VerticalOptions="Center"
+                        WidthRequest="150">
+                        <Picker.Items>
+                            <x:String>Жёлтый фон</x:String>
+                            <x:String>Чёрная фон</x:String>
+                            <x:String>О разработчике</x:String>
+                            <x:String>Выйти с программы</x:String>
+                        </Picker.Items>
+
+                    </Picker>
+                </Grid>
+
+            </Frame>
+            <Grid
+                BackgroundColor="White"
+                HeightRequest="300"
+                WidthRequest="150">
+                <skia:SKCanvasView x:Name="canvasView" PaintSurface="OnCanvasViewPaintSurface" />
+                <Grid.Effects>
+                    <tt:TouchEffect Capture="True" TouchAction="OnTouchEffectAction" />
+                </Grid.Effects>
+            </Grid>
+            <Button
+                WidthRequest="100"
+                HeightRequest="50"
+                Text="Очистить"
+                Clicked="Button_Clicked">
+                
+            </Button>
+            <Button WidthRequest="100" HeightRequest="50" Text="Next" Clicked="Button_Clicked_1">
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

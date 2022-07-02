@@ -1,0 +1,40 @@
+﻿<Window x:Class="Программа_для_косметологического_салона.Заказы_клиенты"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Программа_для_косметологического_салона"
+        mc:Ignorable="d"
+        Title="Заказы клиенты" Height="404" Width="695" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="/Фоны/Фон.jpg"/>
+    </Window.Background>
+    <Grid>
+        <DataGrid x:Name="Информация" HorizontalAlignment="Left" Height="242" Margin="11,10,0,0" VerticalAlignment="Top" Width="654" ItemsSource="{Binding}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Header="Тип услуги" Binding="{Binding 'Type'}">
+                </DataGridTextColumn>
+                <DataGridTextColumn 
+                    Header="Название услуги" Binding="{Binding 'Name'}">
+                </DataGridTextColumn>
+                <DataGridTextColumn 
+                    Header="Дата" Binding="{Binding 'Date'}">
+                </DataGridTextColumn>
+                <DataGridTextColumn 
+                    Header="Время" Binding="{Binding 'Time'}">
+                </DataGridTextColumn>
+                <DataGridTextColumn 
+                    Header="Цена" Binding="{Binding 'Price'}">
+                </DataGridTextColumn>
+                <DataGridTextColumn 
+                    Header="ФИО работника" Binding="{Binding 'User'}">
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="OrderComboBox" HorizontalAlignment="Left" Margin="11,288,0,0" VerticalAlignment="Top" Width="321" SelectedIndex="0"/>
+        <Button x:Name="Print" Content="Печать заказов" HorizontalAlignment="Left" Margin="543,267,0,0" VerticalAlignment="Top" Width="122" Height="26" FontSize="14" Foreground="White" Background="#FF30583C" FontFamily="Arial Rounded MT Bold" Click="Print_Click"/>
+        <Button x:Name="Delete" Content="Отменить запись" HorizontalAlignment="Left" Margin="200,315,0,0" VerticalAlignment="Top" Height="26" FontSize="14" Background="#FF30583C" Foreground="White" FontFamily="Arial Rounded MT Bold" Width="132" Click="Delete_Click"/>
+        <Label x:Name="OrderLabel" Content="Выберите заказ:" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top" Foreground="#FF30583C" FontFamily="Arial Rounded MT Bold" FontSize="16"/>
+    </Grid>
+</Window>

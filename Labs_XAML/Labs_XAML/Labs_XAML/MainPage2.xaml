@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Labs_XAML.MainPage2"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Offset="0" Color="DarkBlue" />
+            <GradientStop Offset="0.2" Color="LightBlue" />
+            <GradientStop Offset="0.8" Color="LightBlue" />
+            <GradientStop Offset="1.0" Color="DarkBlue" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <StackLayout>
+        <Label
+            FontAttributes="Bold"
+            FontSize="25"
+            HeightRequest="100"
+            HorizontalOptions="Start"
+            Text="Регистрация пользовател"
+            TextColor="White"
+            VerticalOptions="Center"
+            WidthRequest="1000" />
+        <Grid
+            HeightRequest="200"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            WidthRequest="350">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140" />
+            </Grid.RowDefinitions>
+            <Label
+                Margin="20,10,0,0"
+                FontAttributes="Bold"
+                FontSize="Title"
+                Text="ФИО:"
+                TextColor="Black" />
+            <Entry
+                Margin="90,0,0,0"
+                BackgroundColor="White"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                Placeholder="ФИО"
+                VerticalOptions="Start"
+                WidthRequest="200" />
+            <Label
+                Margin="20,90,0,0"
+                FontAttributes="Bold"
+                FontSize="Title"
+                Text="E-mail"
+                TextColor="Black" />
+            <Entry
+                Margin="90,80,0,0"
+                BackgroundColor="White"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                Placeholder="E-mail"
+                VerticalOptions="Start"
+                WidthRequest="200" />
+        </Grid>
+        <Button
+            HeightRequest="50"
+            Text="Next"
+            WidthRequest="50" 
+            Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

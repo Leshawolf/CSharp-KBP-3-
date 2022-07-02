@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Labs_XAML.MainPage4"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry
+                x:Name="entry"
+                Margin="10"
+                HeightRequest="50"
+                WidthRequest="100" />
+            <Entry
+                x:Name="entry2"
+                Margin="10"
+                FontSize="{Binding Source={x:Reference Name=slider1}, Path=Value}"
+                Text="{Binding Source={x:Reference Name=entry}, Path=Text}" />
+            <Label FontSize="Large" Text="{Binding Source={x:Reference Name=slider1}, Path=Value, StringFormat='Установлено: {0}'}" />
+            <Slider
+                x:Name="slider1"
+                BackgroundColor="Black"
+                Maximum="100"
+                MaximumTrackColor="White"
+                Minimum="0"
+                MinimumTrackColor="Lime"
+                Value="10" />
+
+            <Slider
+                BackgroundColor="Black"
+                Maximum="100"
+                MaximumTrackColor="White"
+                Minimum="0"
+                MinimumTrackColor="Lime"
+                Value="{Binding Source={x:Reference Name=slider1}, Path=Value}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
