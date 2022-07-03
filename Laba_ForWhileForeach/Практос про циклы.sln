@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Практос про циклы", "Практос про циклы\Практос про циклы.csproj", "{35FF9E82-F9DC-42A8-86D4-EA58D87038B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Практос про циклы_Задание 2", "Практос про циклы_Задание 2\Практос про циклы_Задание 2.csproj", "{D05C9FDF-1695-4A45-BC6B-03860D4ED60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Практос по циклам_Задание 3", "Практос по циклам_Задание 3\Практос по циклам_Задание 3.csproj", "{EF41FF80-B656-4D5D-AACD-310F8DAA8E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Практос по циклам_Задание 4", "Практос по циклам_Задание 4\Практос по циклам_Задание 4.csproj", "{320FE646-FC47-4332-AAAD-C372E4BDDE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Практос по циклам_Задание 5", "Практос по циклам_Задание 5\Практос по циклам_Задание 5.csproj", "{5C65EC59-8BDB-4662-8C12-10B50AF2FEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Практос по циклам_Задание 6", "Практос по циклам_Задание 6\Практос по циклам_Задание 6.csproj", "{528DFAD6-527C-473F-8066-FC1A6F540BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FF9E82-F9DC-42A8-86D4-EA58D87038B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FF9E82-F9DC-42A8-86D4-EA58D87038B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FF9E82-F9DC-42A8-86D4-EA58D87038B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FF9E82-F9DC-42A8-86D4-EA58D87038B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05C9FDF-1695-4A45-BC6B-03860D4ED60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05C9FDF-1695-4A45-BC6B-03860D4ED60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05C9FDF-1695-4A45-BC6B-03860D4ED60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05C9FDF-1695-4A45-BC6B-03860D4ED60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF41FF80-B656-4D5D-AACD-310F8DAA8E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF41FF80-B656-4D5D-AACD-310F8DAA8E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF41FF80-B656-4D5D-AACD-310F8DAA8E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF41FF80-B656-4D5D-AACD-310F8DAA8E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320FE646-FC47-4332-AAAD-C372E4BDDE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320FE646-FC47-4332-AAAD-C372E4BDDE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320FE646-FC47-4332-AAAD-C372E4BDDE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320FE646-FC47-4332-AAAD-C372E4BDDE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C65EC59-8BDB-4662-8C12-10B50AF2FEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C65EC59-8BDB-4662-8C12-10B50AF2FEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C65EC59-8BDB-4662-8C12-10B50AF2FEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C65EC59-8BDB-4662-8C12-10B50AF2FEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528DFAD6-527C-473F-8066-FC1A6F540BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528DFAD6-527C-473F-8066-FC1A6F540BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528DFAD6-527C-473F-8066-FC1A6F540BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528DFAD6-527C-473F-8066-FC1A6F540BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE40A016-5FFC-4BBC-82D8-61BE759AB03D}
+	EndGlobalSection
+EndGlobal
